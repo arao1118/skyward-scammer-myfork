@@ -117,7 +117,7 @@ bool cMap_Home::onInteraction(std::vector<RPG_Dynamic *> &vecDynObjs, RPG_Dynami
         vecDynObjs.erase(
     std::remove(vecDynObjs.begin(), vecDynObjs.end(), target),
     vecDynObjs.end()
-);
+        );
         nBalloonsCollected++;
         if(nBalloonsCollected == nTargetBalloons){
             vecDynObjs.push_back(new Teleport(5.0, 12.0, "victory", 12.0, 7.0));
