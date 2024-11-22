@@ -4,6 +4,7 @@
 #include <fstream>
 #include <map>
 #include "RPG_Maps.h"
+#include <algorithm>
 
 ScriptProcessor *cMap::g_scriptProcessor = nullptr;
 
