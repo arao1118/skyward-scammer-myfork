@@ -276,7 +276,7 @@ bool GameEngine::drawText(std::string text, int x, int y, Color color) {
     LTexture *font = new LTexture();
     font->loadTextureFromText(GameEngine::getFont(), text, {0xFF, 0xFF, 0xFF});
     font->drawTexture(x, y);
-    return true
+    return true;
 }
 
 void GameEngine::close_sdl() {
