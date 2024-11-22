@@ -3,6 +3,7 @@
 //
 
 #include "PathFinder.h"
+#include <algorithm>
 #include <list>
 #include <vector>
 #include <utility>
